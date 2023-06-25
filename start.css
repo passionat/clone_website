@@ -1,0 +1,390 @@
+/*overall*/
+body{
+    margin: 0px;
+    
+    font-family: sans-serif;            
+}
+
+/*navigation bar*/
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    margin-top: 0px;
+    padding-right: 70px;
+    
+}
+
+
+.flex-item{
+    color: white;
+    
+    font-size:16px;
+    list-style-type: none;
+    font-weight:600;
+}
+.im{
+    margin-right: 450px;
+    
+}
+.krunch{
+    width:110px;
+}
+/*first section*/
+.first{
+    
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)),url("https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c2d86bb166809064181470_hero-bg.jpg");
+    height:750px;
+}
+
+.main{
+    margin:auto;
+    margin-top: 180px;
+    color:white;
+    text-align: center;
+    width: 80%;
+}
+
+h1{
+    font-size: 60px;
+    }
+.text{
+    font-size:17px;
+}
+.filled{
+    box-sizing: border-box;
+    width: 230px;
+    height:52.5px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 20px;
+}
+.filled:hover{
+    background-color: rgba(0, 0, 0, 0.399);
+}
+.will-fill{
+    
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px dodgerblue solid;
+    background-color: rgba(0, 0, 0, 0.399);
+    color: white;
+    
+}
+
+.will-fill:hover{
+    background-color: dodgerblue;
+}
+.arrow{
+    width:20px;
+}
+/*section 2*/
+
+.head{
+    color:black;
+    margin: auto;   
+    margin-top: 150px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.689);
+    
+    
+}
+.bottom{
+    font-style: italic;
+}
+.design{
+
+    border-bottom: 2.5px dodgerblue solid;
+    border-top: 0px;
+    width:5.5%;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.flex-i{
+    width:50%;
+    margin:40px;
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.flex-i > img{
+    width:550px;
+}
+.text-con{
+    font-size: 19px;
+}
+
+/*section 2*/
+
+.parent{
+    display: flex;
+    flex-wrap: wrap; /*FLEX-WRAP PROPERTY*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.child{
+    width: 25%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*Section 3*/
+.sub-head{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.689);
+    font-size: 25px;
+    text-align: center;
+}
+.m{
+    margin: auto;
+    text-align: center;
+    
+}
+.diff{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    margin-bottom: 80px;
+}
+
+/*SECTION 4*/
+
+.grandfather{
+    margin-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.father{
+    box-sizing: border-box;
+    width:33%;
+    padding:10px;
+    padding-bottom: 20px;
+    
+}
+.side{
+    color:rgba(0, 0, 0, 0.633);
+    font-size: 18px;
+}
+
+.icon{
+    width:50px;
+}
+
+/*section 5*/
+
+.team{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 60px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.members{
+    box-sizing: border-box;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    
+
+
+}
+
+.members{
+    filter:grayscale(100%);
+    
+}
+
+.members > p{
+    margin-top: 0px;
+    color:rgba(0, 0, 0, 0.633);
+    font-size:18px;
+}
+.members > h3{
+    margin-bottom: 10px;
+}
+/*SECTION*/
+
+.pouch{
+
+    display: flex;
+    margin-left: 60px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.stationary{
+    box-sizing: border-box;
+    width:33.3%;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+
+.stationary > h2{
+    font-size: 22px;
+}
+
+.stationary > .date{
+    font-style: italic;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.503);
+}
+.stationary > p{
+    color: rgba(0, 0, 0, 0.633);
+    
+    font-size:18px;
+}
+
+.stationary > p > a{
+
+    color: dodgerblue;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.stationary > p > a:hover{
+
+    color:black;
+}
+
+/*section-another*/
+
+.somewhere{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.uniq{
+    margin: auto;
+   
+    background-color: white;
+    color: black;
+    border-width: 1px;
+    margin-bottom: 50px;
+    
+
+}
+.uniq:hover{
+    color:white;
+    
+}
+
+/*section - another*/
+
+.user_input{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    margin-top: 60px;
+}
+
+.name{
+    box-sizing: border-box;
+    padding: 17px;
+    width: 32%;
+    border: 0.5px solid rgba(0, 0, 0, 0.633);
+    margin: 20px;
+    margin-bottom: 40px;
+    font-size:16px;
+
+}
+#ema{
+    box-sizing: border-box;
+    padding: 17px;
+    border: 0.5px solid rgba(0, 0, 0, 0.633);
+    width: 852.5px;
+    font-size:16px;
+    margin-bottom: 40px;
+}
+
+#message{
+    box-sizing: border-box;
+    padding: 17px;
+    border: 0.5px solid rgba(0, 0, 0, 0.633);
+    width: 852.5px;
+    font-size:16px;
+    margin-bottom: 40px;
+    height: 220px;
+    font-family: sans-serif;
+}
+
+#ema::placeholder,.name::placeholder{
+    font-size:16px;
+}
+#message::placeholder{
+    font-size:16px;
+}
+
+/*section*/
+
+.end{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+/*FOOT*/
+.feet{
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+}
+.anchor{
+    margin-bottom: 25px;
+    
+}
+.anchor > a{
+    text-decoration: none;
+    color: white;
+    padding-left:7px;
+    padding-right: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.anchor >a:hover{
+    color: dodgerblue;
+}
+.feet > p{
+    font-size: 14px;
+    color:gray;
+    font-weight: 600;
+}
+.helpless > a{
+
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.helpless > a:hover{
+    color: rgba(0, 0, 0, 0.211);
+}
